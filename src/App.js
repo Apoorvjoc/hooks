@@ -18,11 +18,7 @@ function App() {
     <context.Provider value={{theme,count}}>
       <button onClick={()=>setTheme(!theme)}>Change Theme</button>
       <button onClick={()=>setCount(count+1)}>Update Count</button>
-      {/* <Infinite/> */}
-      {/* <Ue2/> */}
-      {/* <Ue1/> */}
-      {/* <Us/> */}
-      {/* <Ue3/> */}
+
       <Navbar/>
       <Parent1/>
       <Parent2/>
